@@ -22,7 +22,6 @@ while main:
   pos = pygame.mouse.get_pos()
   display.fill((255, 255, 255))
   c = display.blit(coin, (230, 200))
-  mousepressed = pygame.mouse.get_pressed()
   #
   #
   for event in pygame.event.get():
